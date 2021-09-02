@@ -6544,12 +6544,12 @@ module.exports = build;
 */
 
 const bigInt = require("big-integer");
-const Circuit = require("snarkjs/src/circuit");
-const bigInt2 = require("snarkjs/src/bigint");
+const Circuit = require("torn-snarkjs/src/circuit");
+const bigInt2 = require("torn-snarkjs/src/bigint");
 const hexifyBigInts = require("../tools/stringifybigint").hexifyBigInts;
 const unstringifyBigInts = require("../tools/stringifybigint").unstringifyBigInts;
-const stringifyBigInts2 = require("snarkjs/src/stringifybigint").stringifyBigInts;
-const unstringifyBigInts2 = require("snarkjs/src/stringifybigint").unstringifyBigInts;
+const stringifyBigInts2 = require("torn-snarkjs/src/stringifybigint").stringifyBigInts;
+const unstringifyBigInts2 = require("torn-snarkjs/src/stringifybigint").unstringifyBigInts;
 
 function bigInt2BytesLE(_a, len) {
     const b = Array(len);
